@@ -1,7 +1,7 @@
 const { ApolloServer, gql } = require('apollo-server');
 const mongoose = require('mongoose');
 const { PubSub } = require('apollo-server');
-const uri = "mongodb+srv://admin:033660468@cluster0.ulm8l.mongodb.net/chat_app?retryWrites=true&w=majority";
+const uri =
 const typeDefs = require('./typeDefs')
 const resolvers = require('./resolvers')
 
